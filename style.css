@@ -9,7 +9,7 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    background-color: #3a86ff;
+    background-color: #8d99ae;
 }
 #logo{
     width: 100px;
@@ -30,7 +30,12 @@ h3{
     transition: background-color 0.3s, color 0.3s, top 1s, left 1s;
 }
 #label {
+    position: relative;
+    top: 20px;
+    width: 250px;
     font-size: 200px;
+    text-align: center;
+    border-radius: 10px;
 }
 #roll:active {
     color: black;
